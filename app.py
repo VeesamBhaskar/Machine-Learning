@@ -9,7 +9,7 @@ from sklearn.multioutput import MultiOutputRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Load and prepare the data
-data = pd.read_csv(r"C:\Users\veesa\Downloads\supermarket_sales - Sheet1.csv")
+data = pd.read_csv("supermarket_sales - Sheet1.csv")
 
 # Preprocess data
 X = data.drop(columns=['Total', 'cogs', 'gross margin percentage'])
